@@ -4,7 +4,7 @@
 So I used this ADC ( analog to digital converter ). To use it I have write verilog design which uses ADC and stores its digital 
 output. Now I have digital output to know whether it is black or white surface.
 
-   I have used ADC's three channels ( channel 5,channel 6 and channel 7 ) out of seven because I am getting three anlog inputs from three defferent channels of ADC.
+   I have used ADC's three channels ( channel 5,channel 6 and channel 7 ) out of seven because I am getting three anlog inputs from three defferent channels of Line Follower Sensor.
 By the digital converted value I can easly know whether any sensor is on the black or white surface.
 
 
