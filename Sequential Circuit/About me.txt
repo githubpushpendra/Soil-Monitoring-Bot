@@ -1,0 +1,7 @@
+   This contains two module "t_ff" and "seq_block_verilog".
+
+   In t_ff module a T Flip-flop is designed and using its block diagram I designed an sequence detector for a perticular
+sequence. That seq_block_verilog file is sequence detector module.
+
+
+THIS PROJECT IS TASK_1B.

@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "din",
+					"strict" : false
+				},
+				{
+					"name" : "adc_sck",
+					"strict" : false
+				},
+				{
+					"name" : "node",
+					"strict" : false
+				},
+				{
+					"name" : "tx",
+					"strict" : false
+				},
+				{
+					"name" : "s2",
+					"strict" : false
+				},
+				{
+					"name" : "s3",
+					"strict" : false
+				},
+				{
+					"name" : "data_frame[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_frame[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lmotor[1]",
+					"strict" : false
+				},
+				{
+					"name" : "node_count_port[0]",
+					"strict" : false
+				},
+				{
+					"name" : "node_count_port[1]",
+					"strict" : false
+				},
+				{
+					"name" : "node_count_port[2]",
+					"strict" : false
+				},
+				{
+					"name" : "node_count_port[3]",
+					"strict" : false
+				},
+				{
+					"name" : "node_count_port[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rmotor[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rmotor[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50",
+					"strict" : false
+				},
+				{
+					"name" : "OUT",
+					"strict" : false
+				},
+				{
+					"name" : "dout",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

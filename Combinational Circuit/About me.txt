@@ -1,0 +1,11 @@
+   This is a whole project containig four modules named "Two_Bit_Comparator", "Four_Bit_Comparator", "Logic_Func" and "Mux_4_to_1".
+
+   First I have designed a two bit comparator then four bit coparator using two bit comparator.
+Then a logic function and then multiplexer.
+
+THIS PROJECT IS TASK_1A.
+
+
+
+
+

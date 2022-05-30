@@ -1,0 +1,21 @@
+   UART = Universal Asynchronous Receiver-Transmeter
+
+   This Module is written to send a message through Zigbee module. This folder contains two verilog files.
+one is "uart_SM11" , it will send "SM11" message once after progran run. The message can be seen through Hterm
+software. And second file "uart_eYRC-Completed" , this module will send message "eYRC-Completed" with 1 second 
+delay. This can be seen in video given in the folder.
+
+   Both the designs are very defferent . Any task if the two tasks can be done by any design of the two designs.
+
+   Zigbee uses "Serial Data Transmission & Reception" . Receiver Zigbee start receiving data after detecting start 
+bit. And stop receiving data after detecting stop bit.
+
+   START BIT ----- Start bit is "low signal with fixed duration". In our project this duration is 2*434 clock cylcles.
+ 
+   STOP BIT ----- Stop bit is "high signal with fixed duration". duration is same 2*434 clock cycles.
+
+   Between start bit and stop bit whatever the bits are detected is stored as data bits. So we need to send our
+message between start bit ans stop bit.
+
+
+THIS CODE IS PART OF TASK_2B.

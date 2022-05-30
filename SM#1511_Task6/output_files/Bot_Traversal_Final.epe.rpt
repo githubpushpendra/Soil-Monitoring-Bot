@@ -1,0 +1,169 @@
+Early Power Estimator File Generator report for Bot_Traversal_Final
+Tue Feb 15 11:50:03 2022
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Early Power Estimator File Generator Summary
+  3. Early Power Estimator File Generator Settings
+  4. Indeterminate Toggle Rates
+  5. Early Power Estimator File Generator Generated Files
+  6. Confidence Metric Details
+  7. Signal Activities
+  8. Early Power Estimator File Generator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++------------------------------------------------------------------------------------------------+
+; Early Power Estimator File Generator Summary                                                   ;
++---------------------------------------------+--------------------------------------------------+
+; Early Power Estimator File Generator Status ; Successful - Tue Feb 15 11:50:03 2022            ;
+; Quartus Prime Version                       ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition      ;
+; Revision Name                               ; Bot_Traversal_Final                              ;
+; Top-level Entity Name                       ; BDv                                              ;
+; Family                                      ; Cyclone IV E                                     ;
+; Device                                      ; EP4CE22F17C6                                     ;
+; Power Estimation Confidence                 ; Low: user provided insufficient toggle rate data ;
++---------------------------------------------+--------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Early Power Estimator File Generator Settings                                                                            ;
++------------------------------------------------------------------+---------------------------------------+---------------+
+; Option                                                           ; Setting                               ; Default Value ;
++------------------------------------------------------------------+---------------------------------------+---------------+
+; Use smart compilation                                            ; Off                                   ; Off           ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                                    ; On            ;
+; Enable compact report table                                      ; Off                                   ; Off           ;
+; Preset Cooling Solution                                          ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ;               ;
+; Board thermal model                                              ; None (CONSERVATIVE)                   ;               ;
+; Default Power Toggle Rate                                        ; 12.5%                                 ; 12.5%         ;
+; Default Power Input I/O Toggle Rate                              ; 12.5%                                 ; 12.5%         ;
+; Use vectorless estimation                                        ; On                                    ; On            ;
+; Use Input Files                                                  ; Off                                   ; Off           ;
+; Filter Glitches in VCD File Reader                               ; On                                    ; On            ;
+; Power Analyzer Report Signal Activity                            ; Off                                   ; Off           ;
+; Power Analyzer Report Power Dissipation                          ; Off                                   ; Off           ;
+; Device Power Characteristics                                     ; TYPICAL                               ; TYPICAL       ;
+; Automatically Compute Junction Temperature                       ; On                                    ; On            ;
+; Specified Junction Temperature                                   ; 25                                    ; 25            ;
+; Ambient Temperature                                              ; 25                                    ; 25            ;
+; Use Custom Cooling Solution                                      ; Off                                   ; Off           ;
+; Board Temperature                                                ; 25                                    ; 25            ;
++------------------------------------------------------------------+---------------------------------------+---------------+
+
+
++--------------------------------------+
+; Indeterminate Toggle Rates           ;
++--------+-----------------------------+
+; Node   ; Reason                      ;
++--------+-----------------------------+
+; clk_50 ; No valid clock domain found ;
+; dout   ; No valid clock domain found ;
++--------+-----------------------------+
+
+
++----------------------------------------------------------------------------------------------------+
+; Early Power Estimator File Generator Generated Files                                               ;
++----------------------------------------------------------------+-----------------------------------+
+; Description                                                    ; Filename                          ;
++----------------------------------------------------------------+-----------------------------------+
+; Design summary for PowerPlay Early Power Estimator spreadsheet ; Bot_Traversal_Final_early_pwr.csv ;
++----------------------------------------------------------------+-----------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Confidence Metric Details                                                                                                                          ;
++----------------------------------------------------------------------------------------+--------------+------------+---------------+---------------+
+; Data Source                                                                            ; Total        ; Pin        ; Registered    ; Combinational ;
++----------------------------------------------------------------------------------------+--------------+------------+---------------+---------------+
+; Simulation (from file)                                                                 ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Simulation                              ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Simulation                       ; 0 (0.0%)     ; 0 (0.0%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;                                                                                        ;              ;            ;               ;               ;
+; Node, entity or clock assignment                                                       ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Node, entity or clock assignment        ; 1 (0.0%)     ; 1 (5.3%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 1 (0.0%)     ; 1 (5.3%)   ; 0 (0.0%)      ; 0 (0.0%)      ;
+;                                                                                        ;              ;            ;               ;               ;
+; Vectorless estimation                                                                  ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 3887 (99.8%) ; 11 (57.9%) ; 1565 (100.0%) ; 2311 (100.0%) ;
+;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 452 (11.6%)  ; 5 (26.3%)  ; 266 (17.0%)   ; 181 (7.8%)    ;
+;     -- Number of signals with Static Probability from Vectorless estimation            ; 3887 (99.8%) ; 11 (57.9%) ; 1565 (100.0%) ; 2311 (100.0%) ;
+;                                                                                        ;              ;            ;               ;               ;
+; Default assignment                                                                     ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate from Default assignment                      ; 2 (0.1%)     ; 2 (10.5%)  ; 0 (0.0%)      ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Default assignment               ; 7 (0.2%)     ; 7 (36.8%)  ; 0 (0.0%)      ; 0 (0.0%)      ;
+;                                                                                        ;              ;            ;               ;               ;
+; Assumed 0                                                                              ;              ;            ;               ;               ;
+;     -- Number of signals with Toggle Rate assumed 0                                    ; 5 (0.1%)     ; 5 (26.3%)  ; 0 (0.0%)      ; 0 (0.0%)      ;
++----------------------------------------------------------------------------------------+--------------+------------+---------------+---------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Activities                                                                                                                           ;
++--------+------+---------------------------------------------+-------------------------+--------------------+--------------------------------+
+; Signal ; Type ; Toggle Rate (millions of transitions / sec) ; Toggle Rate Data Source ; Static Probability ; Static Probability Data Source ;
++--------+------+---------------------------------------------+-------------------------+--------------------+--------------------------------+
+(1) The "Signal Activity" Table has been hidden. To show this table, please select the "Write signal activities to report file" option under "PowerPlay Power Analyzer Settings".
+
+
++-----------------------------------------------+
+; Early Power Estimator File Generator Messages ;
++-----------------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Early Power Estimator File Generator
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Processing started: Tue Feb 15 11:50:02 2022
+Info: Command: quartus_pow --read_settings_files=on --write_settings_files=off Bot_Traversal_Final -c Bot_Traversal_Final --estimate_power=off --output_epe=Bot_Traversal_Final_early_pwr.csv
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (332164): Evaluating HDL-embedded SDC commands
+    Info (332165): Entity sld_hub
+        Info (332166): create_clock -name altera_reserved_tck [get_ports {altera_reserved_tck}] -period 10MHz   
+        Info (332166): set_clock_groups -asynchronous -group {altera_reserved_tck}
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'Bot_Traversal_Final.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Warning (332060): Node: adc_control:b2v_inst|adc_sck_reg was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register BLF:b2v_inst9|counter[4] is being clocked by adc_control:b2v_inst|adc_sck_reg
+Warning (332060): Node: clk_50 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register adc_control:b2v_inst|adc_sck_reg is being clocked by clk_50
+Critical Warning (332168): The following clock transfers have no clock uncertainty assignment. For more accurate results, apply clock uncertainty assignments or use the derive_clock_uncertainty command.
+    Critical Warning (332169): From altera_reserved_tck (Rise) to altera_reserved_tck (Rise) (setup and hold)
+    Critical Warning (332169): From altera_reserved_tck (Rise) to altera_reserved_tck (Fall) (setup and hold)
+Info (223000): Starting Vectorless Power Activity Estimation
+Warning (222013): Relative toggle rates could not be calculated because no clock domain could be identified for some nodes
+Info (223001): Completed Vectorless Power Activity Estimation
+Info (218000): Using Advanced I/O Power to simulate I/O buffers with the specified board trace model
+Info (214002): Created Early Power Estimation file "Bot_Traversal_Final_early_pwr.csv"
+Info (215029): No power estimate will be produced.
+Info (215049): Average toggle rate for this design is 0.482 millions of transitions / sec
+Info: Quartus Prime Early Power Estimator File Generator was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 4783 megabytes
+    Info: Processing ended: Tue Feb 15 11:50:03 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

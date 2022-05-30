@@ -1,0 +1,6 @@
+This verilog module has simple AND GATE design. This is first design in this project.
+This simple design is written to be familiar with Quartus Prime 16.1 software on which
+I was gonna do this project.
+
+
+THIS CODE IS PART OF TASK_0.

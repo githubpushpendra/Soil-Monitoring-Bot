@@ -1,0 +1,14 @@
+module BLF(input clk_50,
+           input [11:0]ch5,
+           input [11:0]ch6,
+           input [11:0]ch7,
+           input adc_clk,
+           input [1:0]data_frame,
+           output node,
+           output [7:0]lm,rm,
+           output lm_n,rm_n
+    );
+	 
+	 
+	 
+endmodule

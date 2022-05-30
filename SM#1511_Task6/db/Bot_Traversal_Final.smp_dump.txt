@@ -1,0 +1,6 @@
+
+State Machine - |dijkshatra|st
+Name st.idle st.path_assign st.path_st 
+st.idle 0 0 0 
+st.path_st 1 0 1 
+st.path_assign 1 1 0 

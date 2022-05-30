@@ -1,0 +1,13 @@
+   This module named "SM1511_CD".
+
+   This module is designed to detect color. In this project we are using "tcs3200" color sensor to detect red, green and
+blue color at a time. This color sensor gives an output square wave of perticular frequency for a perticular color . This
+sensor has three color filters -- red , green and blue filter and one conditoin is when no filter is on.
+
+   I am making every filter on for some nano-seconds one by one and counting frequency of output wave for every filter.
+The module light up red led, green and blue led for red, green and blue color detection respecrtively.
+
+
+
+
+THIS CODE IS PART OF TASK_4, TASK_5 AND TASK_6.

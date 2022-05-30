@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/task 2/task 2b/uart/simulation/modelsim
+vtb
+Z1 !s110 1638106435
+!i10b 1
+!s100 L06bkPXJFeDB@ELTlH63M1
+Ih=ZYM`NA]W?ii63DFX:Bj0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1628183970
+8E:/task 2/task 2b/uart/simulation/modelsim/tb.v
+FE:/task 2/task 2b/uart/simulation/modelsim/tb.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1638106435.000000
+!s107 E:/task 2/task 2b/uart/simulation/modelsim/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/task 2/task 2b/uart/simulation/modelsim|E:/task 2/task 2b/uart/simulation/modelsim/tb.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+E:/task 2/task 2b/uart/simulation/modelsim}
+Z6 tCvgOpt 0
+vuart
+R1
+!i10b 1
+!s100 IIO<WJ]hQM^ol64l_a16N2
+InQ3nVA=a[5IeEc35lE7B[1
+R2
+R0
+w1638106399
+8E:/task 2/task 2b/uart/uart.v
+FE:/task 2/task 2b/uart/uart.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/task 2/task 2b/uart/uart.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/task 2/task 2b/uart|E:/task 2/task 2b/uart/uart.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+E:/task 2/task 2b/uart}
+R6

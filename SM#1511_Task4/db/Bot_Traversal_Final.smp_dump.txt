@@ -1,0 +1,50 @@
+
+State Machine - |BDv|SM1511_CDM:b2v_inst4|next_bit_state
+Name next_bit_state.s11 next_bit_state.s10 next_bit_state.s9 next_bit_state.s8 next_bit_state.s7 next_bit_state.s6 next_bit_state.s5 next_bit_state.s4 next_bit_state.clean next_bit_state.s3 next_bit_state.s2 next_bit_state.s1 
+next_bit_state.s1 0 0 0 0 0 0 0 0 0 0 0 0 
+next_bit_state.s2 0 0 0 0 0 0 0 0 0 0 1 1 
+next_bit_state.s3 0 0 0 0 0 0 0 0 0 1 0 1 
+next_bit_state.clean 0 0 0 0 0 0 0 0 1 0 0 1 
+next_bit_state.s4 0 0 0 0 0 0 0 1 0 0 0 1 
+next_bit_state.s5 0 0 0 0 0 0 1 0 0 0 0 1 
+next_bit_state.s6 0 0 0 0 0 1 0 0 0 0 0 1 
+next_bit_state.s7 0 0 0 0 1 0 0 0 0 0 0 1 
+next_bit_state.s8 0 0 0 1 0 0 0 0 0 0 0 1 
+next_bit_state.s9 0 0 1 0 0 0 0 0 0 0 0 1 
+next_bit_state.s10 0 1 0 0 0 0 0 0 0 0 0 1 
+next_bit_state.s11 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |BDv|SM1511_CDM:b2v_inst4|current_bit_state
+Name current_bit_state.s11 current_bit_state.s10 current_bit_state.s9 current_bit_state.s8 current_bit_state.s7 current_bit_state.s6 current_bit_state.s5 current_bit_state.s4 current_bit_state.clean current_bit_state.s3 current_bit_state.s2 current_bit_state.s1 current_bit_state.s0 
+current_bit_state.s0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_bit_state.s1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_bit_state.s2 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_bit_state.s3 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_bit_state.clean 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_bit_state.s4 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_bit_state.s5 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_bit_state.s6 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_bit_state.s7 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_bit_state.s8 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_bit_state.s9 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_bit_state.s10 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_bit_state.s11 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |BDv|SM1511_CDM:b2v_inst4|current_state
+Name current_state.stop_bit current_state.data_bit current_state.start_bit current_state.idle 
+current_state.idle 0 0 0 0 
+current_state.start_bit 0 0 1 1 
+current_state.data_bit 0 1 0 1 
+current_state.stop_bit 1 0 0 1 
+
+State Machine - |BDv|SM1511_CD:b2v_inst3|data_frame_reg
+Name data_frame_reg.11 data_frame_reg.01 data_frame_reg.10 
+data_frame_reg.01 0 0 0 
+data_frame_reg.10 0 1 1 
+data_frame_reg.11 1 1 0 
+
+State Machine - |BDv|adc_control:b2v_inst|data_frame_reg
+Name data_frame_reg.11 data_frame_reg.01 data_frame_reg.10 
+data_frame_reg.01 0 0 0 
+data_frame_reg.10 0 1 1 
+data_frame_reg.11 1 1 0 

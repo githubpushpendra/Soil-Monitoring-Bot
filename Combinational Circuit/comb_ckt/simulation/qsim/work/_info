@@ -1,0 +1,205 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/simulation/qsim
+vcomb_ckt_verilog
+Z1 !s110 1635571488
+!i10b 1
+!s100 MY609?2b;EIF0jD>IejEV0
+IzQALAadbj4LA:g7j26Ek81
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1635571487
+Z4 8comb_ckt.vo
+Z5 Fcomb_ckt.vo
+Z6 L0 32
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1635571488.000000
+Z9 !s107 comb_ckt.vo|
+Z10 !s90 -work|work|comb_ckt.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcomb_ckt_verilog_vlg_vec_tst
+!s110 1635571489
+!i10b 1
+!s100 4j9hbDlcb3z44e41^>iGE2
+Ik]LhXTlTh2cH[P7Yg@^830
+R2
+R0
+w1635571485
+8Waveform_4bit.vwf.vt
+FWaveform_4bit.vwf.vt
+Z13 L0 30
+R7
+r1
+!s85 0
+31
+!s108 1635571489.000000
+!s107 Waveform_4bit.vwf.vt|
+!s90 -work|work|Waveform_4bit.vwf.vt|
+!i113 1
+R11
+R12
+vFour_Bit_Comparator
+Z14 !s110 1635566939
+!i10b 1
+!s100 gj?[EzoGEOLV4fkho3c?12
+I3U4ROWO0BVQZiY@BM_jTU2
+R2
+R0
+w1635566937
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z15 !s108 1635566939.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@four_@bit_@comparator
+vFour_Bit_Comparator_vlg_vec_tst
+R14
+!i10b 1
+!s100 n@o5ZblAcEQ`B4[=Y8fR01
+I@Sn1G0Laj;B>?MK^A2;cM1
+R2
+R0
+w1635566936
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R15
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R11
+R12
+n@four_@bit_@comparator_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 F;B`VYOe7kjSlS@AkaVXe2
+IaN;Wg9Lb:L>5oHTiRGlU=0
+R2
+R0
+R3
+R4
+R5
+L0 422
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vLogic_Func
+Z16 !s110 1635519420
+!i10b 1
+!s100 ]BXo4C:4Sh3_2ZVQ4h1Bl1
+I1]hbB<mVgA=YbUo34UPh]1
+R2
+R0
+w1635519406
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+!s108 1635519419.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@logic_@func
+vLogic_Func_vlg_vec_tst
+R16
+!i10b 1
+!s100 ZDcNL@m34N:dg5Sf]g9:R3
+I>0TJI;kR7``4n^HJ7@ezS1
+R2
+R0
+w1635519405
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+!s108 1635519420.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@logic_@func_vlg_vec_tst
+vMux_4_to_1
+Z17 !s110 1635525397
+!i10b 1
+!s100 F8QZPN<cg6dPNjDH40T;B2
+I@7^WZAQe81mR>@UmCLm7T3
+R2
+R0
+w1635525386
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+Z18 !s108 1635525397.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@mux_4_to_1
+vMux_4_to_1_vlg_vec_tst
+R17
+!i10b 1
+!s100 bK08PigGHiZQZLMBiG:d:3
+ILIdDjZ79[;D[ZScb<YNLS0
+R2
+R0
+w1635525384
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R13
+R7
+r1
+!s85 0
+31
+R18
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R11
+R12
+n@mux_4_to_1_vlg_vec_tst

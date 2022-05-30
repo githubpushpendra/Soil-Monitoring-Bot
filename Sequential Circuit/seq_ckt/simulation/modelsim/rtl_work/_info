@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/task 1b/seq_ckt/simulation/modelsim
+vseq_block_verilog
+Z1 !s110 1635841685
+!i10b 1
+!s100 k`H>Fm=9h6d2z]WM>OPZ32
+I8E3:g=5D@idD_YgNOnRQ<2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1635841634
+8E:/task 1b/seq_ckt/seq_block_verilog.v
+FE:/task 1b/seq_ckt/seq_block_verilog.v
+L0 20
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1635841685.000000
+!s107 E:/task 1b/seq_ckt/seq_block_verilog.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/task 1b/seq_ckt|E:/task 1b/seq_ckt/seq_block_verilog.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+E:/task 1b/seq_ckt}
+Z7 tCvgOpt 0
+vseq_ckt_tb
+R1
+!i10b 1
+!s100 o^8LISJcUZEleX0^Lc=nE3
+IDn=4[`Te^f`QkoCMRmneJ1
+R2
+R0
+w1628012394
+8E:/task 1b/seq_ckt/simulation/modelsim/seq_ckt_tb.v
+FE:/task 1b/seq_ckt/simulation/modelsim/seq_ckt_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/task 1b/seq_ckt/simulation/modelsim/seq_ckt_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/task 1b/seq_ckt/simulation/modelsim|E:/task 1b/seq_ckt/simulation/modelsim/seq_ckt_tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+E:/task 1b/seq_ckt/simulation/modelsim}
+R7
+vT_ff
+R1
+!i10b 1
+!s100 AQ9EMTGdDeQj2G9Gc[Xc30
+IL@YQm3OmK>?hWmnBn71?62
+R2
+R0
+w1635778117
+8E:/task 1b/seq_ckt/T_ff.v
+FE:/task 1b/seq_ckt/T_ff.v
+L0 22
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/task 1b/seq_ckt/T_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/task 1b/seq_ckt|E:/task 1b/seq_ckt/T_ff.v|
+!i113 1
+R5
+R6
+R7
+n@t_ff

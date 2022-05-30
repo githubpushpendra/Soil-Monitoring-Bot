@@ -1,0 +1,7 @@
+Early Power Estimator File Generator Status : Successful - Tue Feb 15 11:50:03 2022
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Bot_Traversal_Final
+Top-level Entity Name : BDv
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

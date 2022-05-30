@@ -1,0 +1,6 @@
+   This module is named "SM1511_CDM"
+
+   This is combinations of two designs one - "SM1511_CD" and another -- uart -- .This module will send respective
+message on every time color detection.
+
+THIS CODE IS PART OF TASK_4, TASK_5 AND TASK_6.

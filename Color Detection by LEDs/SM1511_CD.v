@@ -1,0 +1,132 @@
+module SM1511_CD( input clk_50,OUT,
+                  input [4:0]node_count,
+                  output [2:0]led,
+						output [1:0]data_frame,
+						output s2,s3,tcs_clk
+					 );
+
+// declaration of variables
+					 
+integer count = -1;
+integer counter = 1;
+reg [1:0] data_frame_reg = 1;
+reg s2_reg = 0;
+reg s3_reg = 0;
+reg led_red = 0;
+reg led_green = 0;
+reg led_blue = 0;
+reg tcs_clk_reg = 0;
+reg [11:0]color_fre_red = 12'b00000000000;
+reg [11:0]color_fre_green = 12'b00000000000;
+reg [11:0]color_fre_blue = 12'b00000000000;
+
+// assigning variables to appropriate ports
+
+assign tcs_clk = tcs_clk_reg;
+assign s2 = s2_reg;
+assign s3 = s3_reg;
+assign data_frame = data_frame_reg;
+assign led[2] = led_red;
+assign led[1] = led_green;
+assign led[0] = led_blue;
+
+// PWM from 50MHz to 2.5MHz
+
+always @(negedge clk_50) begin
+
+   count = count + 1;
+	if(count == 10) begin
+	   tcs_clk_reg = ~tcs_clk_reg;
+		count = 0;
+	end
+	
+end
+
+// updating data frame 
+
+always @(negedge tcs_clk) begin
+
+   if(counter == 50000) begin
+	   case (data_frame_reg)
+		
+	      2'b01 : data_frame_reg = 2'b10;
+		   2'b10 : data_frame_reg = 2'b11;
+		   2'b11 : data_frame_reg = 2'b01;
+
+		endcase
+	end
+end
+
+//assigning values to s2 and s3
+
+always @(posedge tcs_clk) begin
+
+   if(counter == 1) begin
+	   if(data_frame_reg == 1) begin
+	   s2_reg = 0;
+		s3_reg = 0;
+	   end
+	   if(data_frame_reg == 2) begin
+	   s2_reg = 1;
+		s3_reg = 1;
+	   end
+	   if(data_frame_reg == 3) begin
+	   s2_reg = 0;
+		s3_reg = 1;
+	   end
+	end
+	
+end
+
+//assigning color frequencies to appropriate channels and updating leds
+
+always @(negedge tcs_clk) begin
+
+   if(counter == 50000) begin
+	   counter = 0;
+		// update channel
+		if(data_frame_reg == 3) begin
+			if(color_fre_red > color_fre_green && color_fre_red > color_fre_blue && color_fre_blue > color_fre_green && color_fre_blue < color_fre_red && color_fre_red < 119 && color_fre_red > 105) begin 
+				led_red = 1;
+			end
+			else if(color_fre_green > color_fre_red && color_fre_green > color_fre_blue && color_fre_red > color_fre_blue && color_fre_red < color_fre_green && color_fre_green < 80 && color_fre_green > 70) begin 
+				      led_green = 1;
+				  end
+				  else if(color_fre_blue > color_fre_red && color_fre_blue > color_fre_green && color_fre_green > color_fre_red && color_fre_green < color_fre_blue && color_fre_blue < 65 && color_fre_blue > 56) begin 
+				     led_blue = 1;
+				  end
+		end
+	end
+   
+	if(node_count == 8) begin
+	
+	   led_red = 0;
+		led_green = 0;
+		led_blue = 0;
+	
+	end
+	
+	counter = counter + 1;
+	
+end
+
+//counting color frequency
+
+ always @(posedge OUT) begin
+
+   if(data_frame == 1) begin
+	   if(color_fre_green > 0) color_fre_red = 0;
+	   color_fre_red = color_fre_red + 1;
+		color_fre_green = 0;
+	end
+	if(data_frame == 2) begin
+	   color_fre_green = color_fre_green + 1;
+		color_fre_blue = 0;
+	end
+	if(data_frame == 3) begin
+	   color_fre_blue = color_fre_blue + 1;
+	end
+	
+end
+
+endmodule

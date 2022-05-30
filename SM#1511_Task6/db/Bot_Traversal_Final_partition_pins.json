@@ -1,0 +1,257 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "node_r",
+					"strict" : false
+				},
+				{
+					"name" : "lm[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lm[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lm[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lm[6]",
+					"strict" : false
+				},
+				{
+					"name" : "lmn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "lmn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "lmn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "lmn[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rm[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rm[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rmn[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rmn[6]",
+					"strict" : false
+				},
+				{
+					"name" : "node_count_port[0]",
+					"strict" : false
+				},
+				{
+					"name" : "node_count_port[1]",
+					"strict" : false
+				},
+				{
+					"name" : "node_count_port[2]",
+					"strict" : false
+				},
+				{
+					"name" : "node_count_port[3]",
+					"strict" : false
+				},
+				{
+					"name" : "node_count_port[4]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50",
+					"strict" : false
+				},
+				{
+					"name" : "direction[0]",
+					"strict" : false
+				},
+				{
+					"name" : "direction[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ch5[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ch7[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ch6[7]",
+					"strict" : false
+				},
+				{
+					"name" : "node",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

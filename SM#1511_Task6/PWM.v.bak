@@ -1,0 +1,43 @@
+module PWM( input clk_50,
+            input [7:0]in,
+            output ou
+			 );
+
+// declarting regs
+			 
+reg st = 0; // "st" stands for status of input signal -- 1 or 0
+reg our = 0; // r = reg
+reg [7:0]inr; // r = reg
+reg [17:0]clkc = 0; // clk = clock count
+
+// assigning
+
+assign ou = (st == 0) ? 0 : our;
+
+always @(in) begin
+
+   inr = in;
+	if(inr > 0) begin
+   st = 1;
+	end
+	else 
+	st = 0;
+	
+end
+
+always @(posedge clk_50 && st == 1) begin
+
+   clkc = clkc + 1;
+	if(our == 1 && clkc == (inr*1000)) begin
+	   our = ~our;
+		clkc = 0;
+	end
+	else if(our == 0 && clkc == ((100-inr)*1000)) begin
+	   our = ~our;
+		clkc = 0;
+	end
+	if(clkc == 100000) clkc = 0;
+
+end
+			 
+endmodule 

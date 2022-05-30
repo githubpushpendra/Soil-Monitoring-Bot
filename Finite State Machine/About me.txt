@@ -1,0 +1,5 @@
+   This module is named "fsm".
+
+This is a simple finite sate machine.
+
+THIS CODE IS PART OF TASK_1C.

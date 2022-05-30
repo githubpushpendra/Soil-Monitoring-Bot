@@ -1,0 +1,10 @@
+   This module named "dijkshatra".
+
+   This module takes start node ( where bot is ) and end node ( where bot has to reach ) of the given arena in "SM1511_Task3"
+. Arena's nodes and node's coordinates are already defined.
+
+   Module returns command for bot to turn every node so that bot might reach to the final node. This design is so complex 
+that it might take up to 4 hour to compile.
+
+
+THIS MODULE IS PART OF TASK_5, TASK_6 AND FINAL THEME IMPLEMENTATION.

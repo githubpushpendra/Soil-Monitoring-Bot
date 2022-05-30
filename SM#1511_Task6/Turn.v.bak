@@ -1,0 +1,28 @@
+module Turn( input clk_50,
+             input [11:0]ch5,ch6,ch7,
+				 output lm,rm,l,r
+			  );
+			  
+reg lmr = 0;
+reg rmr = 0;
+reg node = 0;
+reg node_f = 0; // f = found
+reg node_r = 0; // r = return
+reg turn_s = 0; // s = started
+reg center = 0;
+
+time t = 0;
+
+assign lm = lmr;
+assign rm = rmr;
+assign l = 0;
+assign r = 0;
+
+always @(posedge clk_50) begin
+
+ 
+
+end
+
+			  
+endmodule

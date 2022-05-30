@@ -1,0 +1,22 @@
+
+State Machine - |uart|current_bit_state
+Name current_bit_state.clean current_bit_state.s2 current_bit_state.s1 current_bit_state.s0 current_bit_state.s3 
+current_bit_state.s0 0 0 0 0 0 
+current_bit_state.s1 0 0 1 1 0 
+current_bit_state.s2 0 1 0 1 0 
+current_bit_state.clean 1 0 0 1 0 
+current_bit_state.s3 0 0 0 1 1 
+
+State Machine - |uart|next_bit_state
+Name next_bit_state.clean next_bit_state.s2 next_bit_state.s1 next_bit_state.s3 
+next_bit_state.s1 0 0 0 0 
+next_bit_state.s2 0 1 1 0 
+next_bit_state.clean 1 0 1 0 
+next_bit_state.s3 0 0 1 1 
+
+State Machine - |uart|current_state
+Name current_state.stop_bit current_state.data_bit current_state.start_bit current_state.idle 
+current_state.idle 0 0 0 0 
+current_state.start_bit 0 0 1 1 
+current_state.data_bit 0 1 0 1 
+current_state.stop_bit 1 0 0 1 

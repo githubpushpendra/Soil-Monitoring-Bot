@@ -1,0 +1,9 @@
+   This module is named "PWM" -- Pulse Width Modulation
+
+   This Program is taking input 50MHz clk signal as input and 8-bit duty cycle and putting a signal in output whose
+frequency is 2.5MHz and given duty cycle.
+
+   This module is designed in TASK_1 but it is used in further tasks with some modifications to control bot,s speed.
+
+
+THIS CODE IS PART OF TASK_4, TASK_5 AND TASK_6.

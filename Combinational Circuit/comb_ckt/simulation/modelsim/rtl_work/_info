@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/simulation/modelsim
+vcomb_ckt_tb
+Z1 !s110 1635678158
+!i10b 1
+!s100 Ng_k64I^3a<Q5l<LQA^b`1
+I=kNdj9CT;Y2>=Z`hg_adC2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1628011654
+8E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/simulation/modelsim/comb_ckt_tb.v
+FE:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/simulation/modelsim/comb_ckt_tb.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1635678158.000000
+!s107 E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/simulation/modelsim/comb_ckt_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/simulation/modelsim|E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/simulation/modelsim/comb_ckt_tb.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/simulation/modelsim}
+Z5 tCvgOpt 0
+vcomb_ckt_verilog
+Z6 !s110 1635678157
+!i10b 1
+!s100 :KU=h7kFQE9BTneJ7e7a13
+I:[PB4oY2l?A0da5HfhY[i1
+R2
+R0
+w1635677693
+8E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/comb_ckt_verilog.v
+FE:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/comb_ckt_verilog.v
+L0 20
+R3
+r1
+!s85 0
+31
+Z7 !s108 1635678157.000000
+!s107 E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/comb_ckt_verilog.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt|E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/comb_ckt_verilog.v|
+!i113 1
+R4
+Z8 !s92 -vlog01compat -work work {+incdir+E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt}
+R5
+vFour_Bit_Comparator
+R1
+!i10b 1
+!s100 Tfm2lP;>90MalVRFkYjmL2
+ILeVej`9Z?>Z5]6GaYQ9nI1
+R2
+R0
+w1635567391
+8E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Four_Bit_Comparator.v
+FE:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Four_Bit_Comparator.v
+Z9 L0 21
+R3
+r1
+!s85 0
+31
+R7
+!s107 E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Four_Bit_Comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt|E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Four_Bit_Comparator.v|
+!i113 1
+R4
+R8
+R5
+n@four_@bit_@comparator
+vLogic_Func
+R6
+!i10b 1
+!s100 KI>:h?]eDnjlj_zYAW;Q`2
+IRhkl2`31NQ[Pa2`j^`_`f3
+R2
+R0
+w1635518836
+8E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Logic_Func.v
+FE:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Logic_Func.v
+R9
+R3
+r1
+!s85 0
+31
+R7
+!s107 E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Logic_Func.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt|E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Logic_Func.v|
+!i113 1
+R4
+R8
+R5
+n@logic_@func
+vMux_4_to_1
+R6
+!i10b 1
+!s100 l26>S?O]0lXKQbFPE6Yfd2
+I@M6h>maD9n@Bg[h3G8GKb1
+R2
+R0
+w1635677422
+8E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Mux_4_to_1.v
+FE:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Mux_4_to_1.v
+R9
+R3
+r1
+!s85 0
+31
+R7
+!s107 E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Mux_4_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt|E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Mux_4_to_1.v|
+!i113 1
+R4
+R8
+R5
+n@mux_4_to_1
+vTwo_Bit_Comparator
+R6
+!i10b 1
+!s100 [P:V=M>WGC1?DKkRbgPzK1
+IJ;nV__KT57e;=JA^jaRK=3
+R2
+R0
+w1635496142
+8E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Two_Bit_Comparator.v
+FE:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Two_Bit_Comparator.v
+R9
+R3
+r1
+!s85 0
+31
+R7
+!s107 E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Two_Bit_Comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt|E:/Quartus/Soil Monitoring_1511/Task1/comb_ckt/Two_Bit_Comparator.v|
+!i113 1
+R4
+R8
+R5
+n@two_@bit_@comparator

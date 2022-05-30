@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Mar 02 16:52:45 2022
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Bot_Traversal_Final
+Top-level Entity Name : Turn
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 1,903 / 22,320 ( 9 % )
+    Total combinational functions : 1,109 / 22,320 ( 5 % )
+    Dedicated logic registers : 1,452 / 22,320 ( 7 % )
+Total registers : 1452
+Total pins : 78 / 154 ( 51 % )
+Total virtual pins : 0
+Total memory bits : 290,816 / 608,256 ( 48 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
